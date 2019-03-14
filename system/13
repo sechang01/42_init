@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    13                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/11 19:59:51 by sechang           #+#    #+#              #
+#    Updated: 2019/03/11 20:01:37 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Name the command that find, in real time, currently running processes.
+
+top
+
+#top - display and update sorted information about processes.

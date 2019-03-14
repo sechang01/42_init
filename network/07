@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    07                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/10 18:29:52 by sechang           #+#    #+#              #
+#    Updated: 2019/03/10 18:33:03 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Query an external DNS server on the slash16.org domain name
+#(ie. : google 8.8.8.8)
+
+#nslookup is a network administration command-line tool available for many
+#computer operating systems for querying the Domain Name System to obtain
+#domain name or IP address mapping or for any other specific DNS record.
+
+#nslookup [-option] [name | -] [server]
+
+nslookup slash16.org 8.8.8.8

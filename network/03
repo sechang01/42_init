@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/09/29 01:55:00 by sechang           #+#    #+#              #
+#    Updated: 2018/09/30 22:35:31 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Identify the MAC address of the Wi-Fi card
+
+networksetup -getmacaddress Wi-Fi
+
+#networksetup -listallhardwareports
+#ifconfig en1 | awk '/ether/{print $2}'

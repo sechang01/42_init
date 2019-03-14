@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/11 17:24:20 by sechang           #+#    #+#              #
+#    Updated: 2019/03/11 17:33:46 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#What command can you use to rename your system?
+
+#hostname to check hostname
+
+hostnamectl set-hostname [new hostname]
+
+#must have admin rights
+#open /etc/hosts and replace old hostname with new one

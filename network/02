@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/09/29 01:25:30 by sechang           #+#    #+#              #
+#    Updated: 2019/03/10 17:39:15 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Identify and display the Ethernet interface characteristics
+
+#Identify broadcast address
+ifconfig en0
+
+#Identify all IP addresses which are part of the same subnet
+arp -a
+
+#networksetup -listallhardwareports
+#networksetup -getinfo Ethernet

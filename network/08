@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/10 18:33:12 by sechang           #+#    #+#              #
+#    Updated: 2019/03/10 18:44:01 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Find the provider of slash16.org
+
+whois slash16.org
+
+#Registrar WHOIS Server: whois.bookmyname.com
+#Registrar URL: https://www.bookmyname.com
+
+#Name Server: ns-144.awsdns-18.com
+#Name Server: ns-1989.awsdns-56.co.uk
+#Name Server: ns-1236.awsdns-26.org
+#Name Server: ns-686.awsdns-21.net

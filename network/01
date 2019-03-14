@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/09/29 01:13:18 by sechang           #+#    #+#              #
+#    Updated: 2019/03/12 11:22:11 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Get the list of the network interfaces of the machine without displaying any
+#detail for these interfaces. Only the list of names.
+
+ifconfig -l
+
+#man ifconfig

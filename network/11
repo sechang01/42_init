@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/10 19:21:12 by sechang           #+#    #+#              #
+#    Updated: 2019/03/10 19:22:59 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Use the output of the previous command to find the name and IP address of the
+#device that makes the link between you (local network) and the outside world
+
+nat (10.90.1.11)
+
+#Network Address Translation (NAT) is the process where a network device,
+#usually a firewall, assigns a public address to a computer (or group of
+#computers) inside a private network. The main use of NAT is to limit the
+#number of public IP addresses an organization or company must use, for both
+#economy and security purposes.

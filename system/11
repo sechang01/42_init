@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/11 19:52:02 by sechang           #+#    #+#              #
+#    Updated: 2019/03/11 19:55:35 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Name the command that displays the available space left and used on the system
+#in an humanly understandable way
+
+df -h
+
+# or -H
+# man literally says "Human-readable" output.

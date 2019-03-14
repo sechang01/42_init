@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    15                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/11 20:08:57 by sechang           #+#    #+#              #
+#    Updated: 2019/03/11 20:26:44 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Find the command that kills the background command’s process
+
+ps -eaf | grep background process
+kill pid
+
+#kill - terminate or signal a process
+#pkill - find or signal processes by name

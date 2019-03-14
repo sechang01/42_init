@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    12                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/11 19:55:37 by sechang           #+#    #+#              #
+#    Updated: 2019/03/11 19:59:49 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Figure out the exact size of each folder of /var in a humanly understandable
+#way followed by the path of it.
+
+du -sh /var/*
+
+#du - display disk usage statistics
+#s - display an entry for each specific file.
+#h - "human readable" output.

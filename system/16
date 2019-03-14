@@ -1,0 +1,36 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    16                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/11 20:26:46 by sechang           #+#    #+#              #
+#    Updated: 2019/03/11 20:44:22 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Find the service which makes it possible to run specific tasks following a
+#regular schedule
+
+at
+cron
+
+#at - queue, examine, or delete jobs for later execution
+#cron - daemon to execute scheduled commands
+#crontab - maintain crontab files for individual users
+
+#Each entry in a crontab file consists of six fields, specifying in the
+#following order:
+
+#minute(s) hour(s) day(s) month(s) weekday(s) command(s)
+#first five fields can take *, meaning all legal values, or values separated
+#by commas
+
+#0 0 * * 1 /myprogram - would the program every day on Monday at midnight
+#/tmp/crontab.InZZy3/crontab
+
+#echo hello | at 16:00
+#would echo hello at 4 pm
+
+

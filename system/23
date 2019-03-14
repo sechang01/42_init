@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    23                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/12 11:30:26 by sechang           #+#    #+#              #
+#    Updated: 2019/03/12 12:10:11 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Explain how connect yourself as new user.
+#(With graphic session and ssh session)
+
+su username
+
+#switch user
+#ssh username@host_ip

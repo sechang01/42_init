@@ -1,0 +1,25 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    17                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/11 20:44:24 by sechang           #+#    #+#              #
+#    Updated: 2019/03/13 13:53:57 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Find the command that allows you to connect via ssh on the VM.
+#(In parallel with the graphic session)
+
+ssh your_username@host_ip_address
+ssh server -l username
+ssh server -l usernmae -p portnumber
+
+#-l for username -p for portnumbers
+
+#ssh - OpenSSH SSH client (remote login program)
+#https://phoenixnap.com/kb/ssh-to-connect-to-remote-server-linux-or-windows
+
+#putty

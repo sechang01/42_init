@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    07                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/11 19:27:44 by sechang           #+#    #+#              #
+#    Updated: 2019/03/11 19:32:16 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Figure out the PID of the SSHD service
+
+#sshd. sshd is the OpenSSH server process. It listens to incoming connections
+#using the SSH protocol and acts as the server for the protocol. It handles
+#user authentication, encryption, terminal connections, file transfers, and
+#tunneling.
+
+ps -ef | grep sshd
+cat /var/run/sshd.pid
+
+#PID is process identification number

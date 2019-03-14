@@ -1,0 +1,30 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    18                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/12 10:07:42 by sechang           #+#    #+#              #
+#    Updated: 2019/03/12 13:27:03 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Find the command that kills ssh service
+
+#su
+
+/etc/init.d/ssh stop
+
+#/etc/init.d/ssh start
+#stops ssh service
+
+ps -aux | grep ssh
+kill -9 <pid>
+
+#terminate ssh process
+
+ps -u username
+kill <pid>
+
+#terminate connection for specific user

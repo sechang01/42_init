@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    06                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/11 18:55:35 by sechang           #+#    #+#              #
+#    Updated: 2019/03/11 19:27:42 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Name the command that reboots the SSH service.
+
+sudo systemctl restart ssh
+sudo service ssh restart
+
+#su to root for some steps:
+#apt-get install sudo -y
+#sudo apt update
+#sudo apt install openssh-server

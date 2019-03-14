@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    12                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/10 19:23:09 by sechang           #+#    #+#              #
+#    Updated: 2019/03/13 18:02:09 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Find the IP that was assigned to you by dhcp server
+
+#DHCP — Dynamic Host Configuration Protocol
+#https://whatismyipaddress.com/dhcp
+#ip addr - 192.168.50.101
+
+scutil --dns
+10.51.1.253

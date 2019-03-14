@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    14                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/11 20:01:46 by sechang           #+#    #+#              #
+#    Updated: 2019/03/13 18:00:21 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Run the ‘tail -f /var/log/syslog‘ command in background
+
+tail -f /var/log/syslog &
+
+#& is for background
+#su for admin permissions
+#tail - output the last part of files
+#f - output appended data as the file grows

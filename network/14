@@ -1,0 +1,28 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    14                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/10 20:08:27 by sechang           #+#    #+#              #
+#    Updated: 2019/03/10 20:27:55 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#What file contains the local DNS entries?
+
+#The /etc/hosts is an operating system file that translate hostnames or domain
+#names to IP addresses. This is useful for testing websites changes or the SSL
+#setup before taking a website publicly live.
+
+/etc/hosts
+
+#DNS. (Domain Name System) The Internet's system for converting alphabetic
+#names into numeric IP addresses. For example, when a Web address (URL) is
+#typed into a browser, DNS servers return the IP address of the Web server
+#associated with that name.
+
+#A local DNS server which performs domain name lookup is usually located on
+#the network to which your computer is attached. If you are using an Internet
+#Service Provider (ISP), your DNS server is at your ISP.

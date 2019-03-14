@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    21                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/12 11:10:03 by sechang           #+#    #+#              #
+#    Updated: 2019/03/12 11:18:52 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#List all real users on the VM
+
+cat /etc/passwd | grep '/home'
+
+#In the VM, all the real users on the system have the home directory /home

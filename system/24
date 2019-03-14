@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    24                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/12 12:10:15 by sechang           #+#    #+#              #
+#    Updated: 2019/03/12 12:16:20 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Find the command that list all packages
+
+apt list
+
+#apt provides a high-level commandline interface for the package management sys
+#apt list --installed
+#list display a list of packages satisfying certain criteria

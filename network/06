@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    06                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: sechang <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/09/30 22:42:02 by sechang           #+#    #+#              #
+#    Updated: 2019/03/10 20:39:09 by sechang          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Get the complete path of the file that contains the IP address of the DNS
+#server you're using
+
+#DNS resolvers configure the names given to computers.
+#resolv.conf is a file used to configure DNS resolver.
+#/etc/resolv.conf is its file path.
+#etc/resolv.conf is just a symbolic link to /var/run/resolv.conf
+#cat resolv.conf -- shows "SEE ALSO scutil(8)"
+
+scutil --dns
